@@ -1,0 +1,11 @@
+flight_num,aircraft_id,depart,arrival,departure_time,arrival_time
+AI101,AC01,Delhi,Mumbai,17:00:00,21:00:00
+AI102,AC02,Mumbai,Delhi,09:00:00,08:00:00
+AI103,AC03,Delhi,Bangalore,19:00:00,08:00:00
+AI104,AC04,Bangalore,Delhi,19:00:00,16:00:00
+AI105,AC05,Mumbai,Chennai,16:00:00,18:00:00
+AI106,AC06,Chennai,Mumbai,15:00:00,21:00:00
+AI107,AC07,Delhi,Kolkata,12:00:00,16:00:00
+AI108,AC08,Kolkata,Delhi,17:00:00,11:00:00
+AI109,AC09,Mumbai,Goa,14:00:00,20:00:00
+AI110,AC10,Goa,Mumbai,12:00:00,16:00:00

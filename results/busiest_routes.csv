@@ -1,0 +1,11 @@
+depart,arrival,total_passengers
+Bangalore,Delhi,41
+Kolkata,Delhi,36
+Delhi,Kolkata,35
+Mumbai,Delhi,32
+Mumbai,Goa,31
+Mumbai,Chennai,30
+Goa,Mumbai,29
+Delhi,Bangalore,26
+Chennai,Mumbai,25
+Delhi,Mumbai,15

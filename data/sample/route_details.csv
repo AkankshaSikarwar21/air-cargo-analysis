@@ -1,0 +1,11 @@
+route_id,flight_num,origin_airport,destination_airport,aircraft_id,distance_miles
+R01,AI101,Delhi,Mumbai,AC01,750
+R02,AI102,Mumbai,Delhi,AC02,750
+R03,AI103,Delhi,Bangalore,AC03,1200
+R04,AI104,Bangalore,Delhi,AC04,1200
+R05,AI105,Mumbai,Chennai,AC05,800
+R06,AI106,Chennai,Mumbai,AC06,800
+R07,AI107,Delhi,Kolkata,AC07,1000
+R08,AI108,Kolkata,Delhi,AC08,1000
+R09,AI109,Mumbai,Goa,AC09,450
+R10,AI110,Goa,Mumbai,AC10,450
