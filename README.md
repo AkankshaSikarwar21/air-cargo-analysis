@@ -1,8 +1,6 @@
-
-# Air Cargo Analysis
+﻿# Air Cargo Analysis
 
 An end-to-end analysis of airline ticket sales, route demand and customer behaviour using Python, SQL and an interactive Streamlit dashboard.
-
 
 > Note: the data is a **synthetic practice dataset** generated with `src/generate_dataset.py`. It is not real airline data, so the findings are illustrative.
 
@@ -44,17 +42,23 @@ Five related tables (Jan to Oct 2024):
 
 ## Dashboard Screenshots
 
-### Revenue
-![Revenue](images/01_revenue.png)
+### Revenue by class
+![Revenue by class](images/revenue-by-class.png)
 
-### Routes
-![Routes](images/02_routes.png)
+### Monthly revenue
+![Monthly revenue](images/monthly-revenue.png)
 
-### Customers
-![Customers](images/03_customers.png)
+### Busiest routes
+![Busiest routes](images/busiest-routes.png)
 
-### Flights
-![Flights](images/04_flights.png)
+### Top 10 spenders
+![Top 10 spenders](images/top-10-spenders.png)
+
+### Most frequent flyers
+![Most frequent flyers](images/most-frequent-flyers.png)
+
+### Top 10 flights by revenue
+![Top 10 flights by revenue](images/top-10-flights-by-revenue.png)
 
 ## Tech Stack
 Python, pandas, Plotly, SQL (SQLite), Streamlit, Git and GitHub.
@@ -62,15 +66,15 @@ Python, pandas, Plotly, SQL (SQLite), Streamlit, Git and GitHub.
 ## Project Structure
 ```
 air-cargo-analysis/
-├── app/app.py              # Streamlit dashboard
-├── data/sample/            # the 5 CSV tables
-├── images/                 # dashboard screenshots
-├── results/                # CSV outputs of the analysis
-├── sql/analysis.sql        # SQL queries
-├── src/analysis.py         # pandas analysis
-├── src/run_sql.py          # runs the SQL file on SQLite
-├── src/generate_dataset.py # creates the synthetic data
-└── requirements.txt
+|-- app/app.py               # Streamlit dashboard
+|-- data/sample/             # the 5 CSV tables
+|-- images/                  # dashboard charts
+|-- results/                 # CSV outputs of the analysis
+|-- sql/analysis.sql         # SQL queries
+|-- src/analysis.py          # pandas analysis
+|-- src/run_sql.py           # runs the SQL file on SQLite
+|-- src/generate_dataset.py  # creates the synthetic data
+`-- requirements.txt
 ```
 
 ## Run Locally
