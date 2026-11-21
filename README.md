@@ -3,7 +3,6 @@
 
 An end-to-end analysis of airline ticket sales, route demand and customer behaviour using Python, SQL and an interactive Streamlit dashboard.
 
-**Live dashboard:** <paste Streamlit link here>
 
 > Note: the data is a **synthetic practice dataset** generated with `src/generate_dataset.py`. It is not real airline data, so the findings are illustrative.
 
